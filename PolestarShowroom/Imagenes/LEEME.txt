@@ -7,7 +7,7 @@ Si quieres fotos reales, guarda aquí archivos JPG con EXACTAMENTE estos nombres
     polestar2.jpg, polestar2-dual.jpg, polestar3.jpg, polestar4-suv.jpg,
     polestar4-coupe.jpg, polestar4-dual.jpg, polestar5.jpg, polestar5-performance.jpg
   Campañas de la pantalla de inicio (formato apaisado):
-    campana1.jpg (Polestar 5), campana2.jpg (Black Friday Polestar 2), campana3.jpg (Polestar 4 SUV)
+    campana1.jpg (Polestar 5), campana2.jpg (Black Friday Polestar 2), campana3.jpg (Polestar 3)
   Panel izquierdo de inicio de sesión:
     login.jpg
 

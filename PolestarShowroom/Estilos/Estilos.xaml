@@ -5,10 +5,10 @@
          PALETA DE COLORES
          Cambiando ColorAcento cambia el color de toda la aplicación.
          ============================================================ -->
-    <Color x:Key="ColorAcento">#D4943A</Color>
+    <Color x:Key="ColorAcento">#C9B18A</Color> <!-- Champán: elegido por Sara (antes dorado #D4943A) -->
 
     <SolidColorBrush x:Key="AcentoBrush" Color="{StaticResource ColorAcento}"/>
-    <SolidColorBrush x:Key="AcentoTextoBrush" Color="#8A5A12"/>
+    <SolidColorBrush x:Key="AcentoTextoBrush" Color="#6E5A38"/> <!-- versión oscura del champán para texto sobre fondo claro -->
     <SolidColorBrush x:Key="FondoBrush" Color="#F4F2EE"/>
     <SolidColorBrush x:Key="SuperficieBrush" Color="#FFFFFF"/>
     <SolidColorBrush x:Key="OscuroBrush" Color="#111317"/>

@@ -36,9 +36,9 @@ namespace PolestarShowroom.Paginas
             _marcas = new[] { marcaPunto0, marcaPunto1, marcaPunto2 };
 
             // Fotos opcionales de las campañas (Imagenes\campana1.jpg, campana2.jpg, campana3.jpg)
-            imgCampana0.Source = Coche.CargarImagen("campana1.jpg");
-            imgCampana1.Source = Coche.CargarImagen("campana2.jpg");
-            imgCampana2.Source = Coche.CargarImagen("campana3.jpg");
+            imgCampana0.Source = Coche.CargarImagen("campana1.jpg", 2600);
+            imgCampana1.Source = Coche.CargarImagen("campana2.jpg", 2600);
+            imgCampana2.Source = Coche.CargarImagen("campana3.jpg", 2600);
 
             listaNovedades.ItemsSource = Catalogo.Novedades();
             listaMejorPrecio.ItemsSource = Catalogo.MejorPrecio();

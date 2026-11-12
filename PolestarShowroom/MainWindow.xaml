@@ -47,8 +47,12 @@
                     <StackPanel Orientation="Horizontal">
                         <Path Data="{StaticResource FormaEstrella}" Fill="{StaticResource AcentoBrush}"
                               Width="22" Height="22" Stretch="Uniform" VerticalAlignment="Center"/>
-                        <TextBlock Text="P O L E S T A R" Foreground="White" FontSize="19" FontWeight="Light"
-                                   Margin="12,0,0,0" VerticalAlignment="Center"/>
+                        <StackPanel Margin="12,0,0,0" VerticalAlignment="Center">
+                            <TextBlock Text="P O L E S T A R" Foreground="White" FontSize="19" FontWeight="Light"/>
+                            <!-- Eslogan elegido por Sara -->
+                            <TextBlock Text="El futuro ya se conduce" Foreground="{StaticResource AcentoBrush}"
+                                       FontSize="11" Margin="1,2,0,0"/>
+                        </StackPanel>
                     </StackPanel>
                 </Button>
 

@@ -31,7 +31,9 @@ namespace PolestarShowroom.Paginas
         {
             InitializeComponent();
             _relojBloqueo.Tick += RelojBloqueo_Tick;
-            imgLateral.Source = Coche.CargarImagen("login.jpg");
+            imgLateral.Source = Coche.CargarImagen("login.jpg", 1400);
+            // Si hay foto, se oculta la silueta para que no se superpongan
+            if (imgLateral.Source != null) siluetaLogin.Visibility = Visibility.Collapsed;
         }
 
         private void Page_Loaded(object sender, RoutedEventArgs e)

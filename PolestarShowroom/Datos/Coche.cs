@@ -73,7 +73,7 @@ namespace PolestarShowroom.Datos
             }
         }
 
-        public static ImageSource CargarImagen(string archivo)
+        public static ImageSource CargarImagen(string archivo, int anchoMaximo = 600)
         {
             if (string.IsNullOrEmpty(archivo)) return null;
             try
@@ -85,7 +85,7 @@ namespace PolestarShowroom.Datos
                 bmp.BeginInit();
                 bmp.UriSource = new Uri(ruta, UriKind.Absolute);
                 bmp.CacheOption = BitmapCacheOption.OnLoad;
-                bmp.DecodePixelWidth = 600;
+                bmp.DecodePixelWidth = anchoMaximo; // las tarjetas se cargan pequeñas; las campañas, grandes
                 bmp.EndInit();
                 bmp.Freeze();
                 return bmp;

@@ -58,7 +58,7 @@
                 </LinearGradientBrush>
             </Grid.Background>
             <Image x:Name="imgLateral" Stretch="UniformToFill" Opacity="0.55"/>
-            <Viewbox VerticalAlignment="Bottom" Margin="40,0,-80,40" Opacity="0.35">
+            <Viewbox x:Name="siluetaLogin" VerticalAlignment="Bottom" Margin="40,0,40,40" Opacity="0.35">
                 <Canvas Width="300" Height="100">
                     <Path Data="{StaticResource SiluetaCarroceria}" Fill="{StaticResource AcentoBrush}"/>
                     <Path Data="{StaticResource SiluetaVentanas}" Fill="#55000000"/>
