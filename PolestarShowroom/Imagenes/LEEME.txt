@@ -1,0 +1,14 @@
+CARPETA DE IMÁGENES (opcional)
+
+La aplicación funciona sin fotos: muestra una silueta vectorial sobre un degradado.
+Si quieres fotos reales, guarda aquí archivos JPG con EXACTAMENTE estos nombres:
+
+  Tarjetas de modelos:
+    polestar2.jpg, polestar2-dual.jpg, polestar3.jpg, polestar4-suv.jpg,
+    polestar4-coupe.jpg, polestar4-dual.jpg, polestar5.jpg, polestar5-performance.jpg
+  Campañas de la pantalla de inicio (formato apaisado):
+    campana1.jpg (Polestar 5), campana2.jpg (Black Friday Polestar 2), campana3.jpg (Polestar 4 SUV)
+  Panel izquierdo de inicio de sesión:
+    login.jpg
+
+Anota en la memoria de dónde sale cada foto y su licencia (lo pide el enunciado).

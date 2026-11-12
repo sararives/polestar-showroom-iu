@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Aplicación WPF de escritorio (.NET Framework 4.8, igual que en clase) -->
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net48</TargetFramework>
+    <UseWPF>true</UseWPF>
+    <RootNamespace>PolestarShowroom</RootNamespace>
+    <AssemblyName>PolestarShowroom</AssemblyName>
+    <LangVersion>7.3</LangVersion>
+  </PropertyGroup>
+
+  <!-- Las fotos de la carpeta Imagenes se copian junto al .exe
+       (equivale a "Copiar en el directorio de salida: Copiar si es posterior") -->
+  <ItemGroup>
+    <None Remove="Imagenes\**" />
+    <Content Include="Imagenes\**">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+
+</Project>
