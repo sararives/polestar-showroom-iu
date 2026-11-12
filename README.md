@@ -48,6 +48,6 @@ Fotos recortadas y redimensionadas para el prototipo.
 Las imágenes de Wikimedia Commons recortadas se comparten bajo la misma licencia CC BY-SA 4.0.
 
 ## Uso de inteligencia artificial
-Este proyecto se ha desarrollado con ayuda de **Claude (Anthropic)**, modelo Claude Opus 5.5, los días 11 y 12 de noviembre de 2026. La IA me ayudó a generar y me explicó la estructura del proyecto, el XAML de las tres pantallas, los estilos y el código C#. Yo ejecuté y probé la aplicación, detecté errores y pedí corregirlos, busqué y verifiqué las fotos y sus licencias, elegí el color y el eslogan, y gestioné este repositorio. El prompt inicial y el detalle están en la documentación entregada.
+Este proyecto se ha desarrollado con ayuda de **Claude (Anthropic)**, modelo Claude Opus 5.5. La IA me explicó y me ayudó a generar la estructura del proyecto, el XAML de las tres pantallas, los estilos y el código C#. Yo ejecuté y probé la aplicación, detecté errores y pedí corregirlos, busqué y verifiqué las fotos y sus licencias, elegí el color y el eslogan, y gestioné este repositorio. El prompt inicial y el detalle están en la documentación entregada.
 
 > Datos y precios orientativos (prensa del motor española, noviembre 2026). Proyecto académico sin relación oficial con Polestar.
